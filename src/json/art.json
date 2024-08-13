@@ -55,22 +55,22 @@
       "longDescription": "A digital poster of WWE superstar Sasha Banks created with Adobe Illustrator. The silhouette is the wrestler in her entrance ramp pose. The gold foil texture and letter ’S’ replaced by dollar signs reference the wealth and glitz associated with the character nicknamed ‘The Legit Boss’."
     },
     {
-      "name": "Captain Marvel -",
-      "subname":"(need better title)",
+      "name": "Captain Marvel",
+      "subname":"Print poster",
       "thumbnail": "Captain_Marvel.jpg",
       "slides": ["Captain_Marvel.png"],
-      "altText": "Dolor minim ut aliqua fugiat occaecat",
-      "briefDescription": "Dolor minim ut aliqua fugiat occaecat",
-      "longDescription": "Lorem duis Lorem irure eu mollit magna incididunt ut consequat adipisicing. Pariatur pariatur ullamco veniam occaecat pariatur quis aliqua dolor. Quis ex est anim sint esse nisi irure velit dolor consectetur excepteur."
+      "altText": "Vector art of the Marvel Comics superhero.",
+      "briefDescription": "Vector art of the Marvel Comics superhero.",
+      "longDescription": "A relaunch of this Avengers mainstay by writer Kelly Sue DeConnick saw the character taking on the mantle of Captain Marvel, donning a new costume and embracing a renewed emphasis on her Air Force background. The poster aims to evoke the hope and optimism of the books, as well as the freedom and joy of flight. "
     },
     {
-      "name": "Hawkeye -",
-      "subname":"(need better title)",
+      "name": "Hawkeye",
+      "subname":"Print poster",
       "thumbnail": "Hawkeye.jpg",
       "slides": ["Hawkeye.png"],
-      "altText": "Dolor minim ut aliqua fugiat occaecat",
-      "briefDescription": "Dolor minim ut aliqua fugiat occaecat",
-      "longDescription": "Lorem duis Lorem irure eu mollit magna incididunt ut consequat adipisicing. Pariatur pariatur ullamco veniam occaecat pariatur quis aliqua dolor. Quis ex est anim sint esse nisi irure velit dolor consectetur excepteur."
+      "altText": "Vector-only poster celebrating the character’s solo series.",
+      "briefDescription": "Vector-only poster celebrating the character’s solo series.",
+      "longDescription": "This iteration of the hero (lovingly nicknamed ‘Hawkguy’ by series writer Matt Fraction) follows Hawkeye’s solo adventures. The poster incorporates the color palette, typeface and bullseye icons of the comics. The text background contains the names of various creators on the title as well as recurring words and phrases from the stories."
     }
   ]
 }
