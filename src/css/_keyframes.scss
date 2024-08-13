@@ -1,0 +1,62 @@
+// Keyframes
+// --------------------------
+
+// BackgroundGradient
+// --------------------------
+
+@-webkit-keyframes BackgroundGradient {
+  @include BackgroundGradientAnimation();
+}
+
+@-moz-keyframes BackgroundGradient {
+  @include BackgroundGradientAnimation();
+}
+
+@keyframes BackgroundGradient {
+  @include BackgroundGradientAnimation();
+}
+
+// SocialHover
+// --------------------------
+
+@-webkit-keyframes SocialHover {
+  @include SocialHoverAnimation();
+}
+
+@-moz-keyframes SocialHover {
+  @include SocialHoverAnimation();
+}
+
+@keyframes SocialHover {
+  @include SocialHoverAnimation();
+}
+
+// SocialHover
+// --------------------------
+
+@-webkit-keyframes SendButtonHover {
+  @include SendButtonHoverAnimation();
+}
+
+@-moz-keyframes SendButtonHover {
+  @include SendButtonHoverAnimation();
+}
+
+@keyframes SendButtonHover {
+  @include SendButtonHoverAnimation();
+}
+
+// SocialHover
+// --------------------------
+
+@-webkit-keyframes ArrowPulse {
+  @include ArrowPulseAnimation();
+}
+
+@-moz-keyframes ArrowPulse {
+  @include ArrowPulseAnimation();
+}
+
+@keyframes ArrowPulse {
+  @include ArrowPulseAnimation();
+}

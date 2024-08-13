@@ -1,0 +1,76 @@
+{
+  "art": [
+    {
+      "name": "Nine Inch Nails",
+      "subname": "Mobile wallpaper series",
+      "thumbnail": "Nine_Inch_Nails.jpg",
+      "slides": ["Nine_Inch_Nails_1.png","Nine_Inch_Nails_2.png","Nine_Inch_Nails_3.png"],
+      "altText": "Downloadable phone backgrounds for fans of the band.",
+      "briefDescription": "Downloadable phone backgrounds for fans of the band.",
+      "longDescription": "A series of digital posters for the band Nine Inch Nails, designed for use as a background or lock screen on mobile devices. Vector art of the band’s singer was created in Adobe Illustrator. The band’s logo, song lyrics, texturing effects and vector art were combined in Adobe Photoshop."
+    },
+    {
+      "name": "Better Call Saul",
+      "subname":"Print poster",
+      "thumbnail": "Better_Call_Saul.jpg",
+      "slides": ["Better_Call_Saul.png"],
+      "altText": "Full-size wall poster commemorating the series.",
+      "briefDescription": "Full-size wall poster commemorating the series.",
+      "longDescription": "The prequel series to Breaking Bad follows lawyer Jimmy McGill as his ethics erode transforming him into Saul. The burning matchbook symbolizes abandoning a previous life. The state flag of New Mexico, indigenous artwork and clay texturing reference the show’s setting. All elements were created and combined in Adobe Photoshop."
+    },
+    {
+      "name": "Agent Carter",
+      "subname":"Print poster",
+      "thumbnail": "Agent_Carter.jpg",
+      "slides": ["Agent_Carter.png"],
+      "altText": "Retro combination of a comic book cover as a print TV ad.",
+      "briefDescription": "Retro combination of a comic book cover as a print TV ad.",
+      "longDescription": "This Marvel TV series is set in the aftermath of World War II. The concept was to create a print resembling a period appropriate TV ad that itself was based off of a period appropriate comic book cover. The figures and typography were designed in Adobe Illustrator. Texturing, color adjustments and press preparation were done in Adobe Photoshop."
+    },
+    {
+      "name": "World Wrestling Entertainment",
+      "subname":"Match card poster",
+      "thumbnail": "Survivor_Series.jpg",
+      "slides": ["Survivor_Series.png"],
+      "altText": "Vintage inspired advertisement for a pay-per-view event.",
+      "briefDescription": "Vintage inspired advertisement for a pay-per-view event.",
+      "longDescription": "A “tale of the tape”-style poster promoting a pay-per-view fight for the women’s world championship. The look was inspired by boxing match cards from the first half of the 20th century. Designed in Adobe Illustrator, photo editing and texturing completed in Adobe Photoshop. Original photo credit: World Wrestling Entertainment."
+    },
+    {
+      "name": "Orphan Black",
+      "subname":"Print poster series",
+      "thumbnail": "Orphan_Black.jpg",
+      "slides": ["Orphan_Black_1.png","Orphan_Black_2.png","Orphan_Black_3.png","Orphan_Black_4.png","Orphan_Black_5.png"],
+      "altText": "Minimalist character posters based off the TV series.",
+      "briefDescription": "Minimalist character posters based off the TV series.",
+      "longDescription": "The sci-fi mystery centers on a group of clones banding together for survival and to discover their origins. The same actor portrays each clone, using their unique personalities, hair and wardrobe to differentiate them. The concept was to “remove” the performer leaving behind the minimum amount of visual cues to identify them."
+    },
+    {
+      "name": "World Wrestling Entertainment",
+      "subname": "Mobile wallpaper",
+      "thumbnail": "Sasha_Banks.jpg",
+      "slides": ["Sasha_Banks.png"],
+      "altText": "Phone background of professional wrestler Sasha Banks.",
+      "briefDescription": "Phone background of professional wrestler Sasha Banks",
+      "longDescription": "A digital poster of WWE superstar Sasha Banks created with Adobe Illustrator. The silhouette is the wrestler in her entrance ramp pose. The gold foil texture and letter ’S’ replaced by dollar signs reference the wealth and glitz associated with the character nicknamed ‘The Legit Boss’."
+    },
+    {
+      "name": "Captain Marvel -",
+      "subname":"(need better title)",
+      "thumbnail": "Captain_Marvel.jpg",
+      "slides": ["Captain_Marvel.png"],
+      "altText": "Dolor minim ut aliqua fugiat occaecat",
+      "briefDescription": "Dolor minim ut aliqua fugiat occaecat",
+      "longDescription": "Lorem duis Lorem irure eu mollit magna incididunt ut consequat adipisicing. Pariatur pariatur ullamco veniam occaecat pariatur quis aliqua dolor. Quis ex est anim sint esse nisi irure velit dolor consectetur excepteur."
+    },
+    {
+      "name": "Hawkeye -",
+      "subname":"(need better title)",
+      "thumbnail": "Hawkeye.jpg",
+      "slides": ["Hawkeye.png"],
+      "altText": "Dolor minim ut aliqua fugiat occaecat",
+      "briefDescription": "Dolor minim ut aliqua fugiat occaecat",
+      "longDescription": "Lorem duis Lorem irure eu mollit magna incididunt ut consequat adipisicing. Pariatur pariatur ullamco veniam occaecat pariatur quis aliqua dolor. Quis ex est anim sint esse nisi irure velit dolor consectetur excepteur."
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html {
+  font-size: 10px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-size: 10px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@-webkit-keyframes BackgroundGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes BackgroundGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes BackgroundGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-webkit-keyframes SocialHover {
+  0% {
+    color: #fff;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  50% {
+    color: #ff0000;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    color: #fff;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+@-moz-keyframes SocialHover {
+  0% {
+    color: #fff;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  50% {
+    color: #ff0000;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    color: #fff;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+@keyframes SocialHover {
+  0% {
+    color: #fff;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  50% {
+    color: #ff0000;
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    color: #fff;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes SendButtonHover {
+  0% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+@-moz-keyframes SendButtonHover {
+  0% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+@keyframes SendButtonHover {
+  0% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes ArrowPulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@-moz-keyframes ArrowPulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@keyframes ArrowPulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  height: 90vh;
+  width: 100wh;
+}
+body .hide {
+  display: none;
+}
+body .container {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+body .container header {
+  padding: 3% 0 0 0;
+}
+body .container header nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+body .container header nav button,
+body .container header nav a {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  /*margin-right: 20%;*/
+  outline: none;
+}
+body .container header nav button:nth-child(4),
+body .container header nav a:nth-child(4) {
+  margin-right: 10px;
+}
+body .container header nav button svg {
+  margin-top: -2px;
+  left: 5px;
+  position: relative;
+}
+body .homeScreen .logo {
+  display: block;
+  height: auto;
+  margin: 30px auto;
+  width: 100%;
+}
+body .homeScreen .menu {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  width: 100%;
+}
+body .homeScreen .menu div {
+  background: #000;
+  border: 1px solid white;
+  border-bottom: 0em;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 5px -1px 0;
+  outline: none;
+  padding: 5px 10px;
+  width: 40%;
+}
+body .homeScreen .menu div.active {
+  background: #1a73e8;
+  border-bottom: 1px solid #fff;
+  border-style: solid;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+body .homeScreen .projects {
+  border: 1px solid #fff;
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .homeScreen .projects .project-container {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  font-size: 1.45rem;
+  height: 100%;
+  line-height: 2rem;
+  padding: 3%;
+  position: relative;
+  width: 50%;
+}
+body .homeScreen .projects .project-container .iframeWrapper {
+  clear: both;
+  display: block;
+  height: 100%;
+  margin-bottom: 20px;
+  min-height: 275px;
+  position: relative;
+  width: 100%;
+}
+body .homeScreen .projects .project-container .iframeWrapper iframe {
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+body .homeScreen .projects .project-container h3 {
+  color: #1a73e8;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+body .homeScreen .projects .project-container h3.subname {
+  font-weight: normal;
+}
+body .homeScreen .projects .project-container h4 span {
+  font-weight: 600;
+}
+body .homeScreen .projects .project-container a,
+body .homeScreen .projects .project-container a:visited {
+  color: #1a73e8;
+  text-decoration: none;
+}
+body .homeScreen .projects .project-container img {
+  margin-top: 15px;
+  width: 100%;
+}
+body .homeScreen .projects .slideshow-container {
+  position: relative;
+}
+body .homeScreen .projects .slideshow-container .carouselWrapper {
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+body .homeScreen .projects .slideshow-container .carouselWrapper .carousel-root {
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+body .homeScreen .projects .slideshow-container .carouselWrapper .carousel-root .carousel .carousel-status {
+  left: 0;
+  padding: 10px;
+  right: auto;
+}
+body .homeScreen .projects .slideshow-container .carouselWrapper .carousel-root .carousel svg {
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  right: 27px;
+  top: 10px;
+  z-index: 2;
+}
+body .homeScreen .projects .slideshow-container .carouselWrapper .carousel-root .carousel .control-dots .dot {
+  background: #1a73e8;
+}
+body .homeScreen .projects .slideshow-container .carouselWrapper .carousel-root .carousel .carousel-status {
+  background: #000;
+  font-size: 1.5rem;
+}
+body .homeScreen .projects .slideshow-container .carouselWrapper .carousel-root .carousel .slide .legend {
+  background: #000;
+  bottom: 3%;
+  font-size: 2em;
+  left: 0;
+  line-height: 1.5em;
+  margin: 0 auto;
+  opacity: 1;
+  position: relative;
+  width: 90%;
+}
+body .homeScreen .projects.art .slideshow-container .carouselWrapper .carousel-root .carousel svg {
+  color: #FFF;
+}
+body .contactScreen h1 {
+  font-size: 2rem;
+  margin-bottom: 5%;
+  text-align: center;
+}
+body .contactScreen form {
+  margin: 0 auto;
+  width: 300px;
+}
+body .contactScreen form input,
+body .contactScreen form textarea {
+  box-sizing: border-box;
+  border: none;
+  display: block;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 2px 10px;
+  width: 100%;
+}
+body .contactScreen form textarea {
+  height: 200px;
+  resize: none;
+}
+body .contactScreen form input[type=submit] {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #1a73e8;
+  color: #fff !important;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 4% 0;
+  text-transform: uppercase;
+}
+body .contactScreen form input[type=submit]:hover {
+  -webkit-animation: "SendButtonHover" 1s ease infinite;
+  -moz-animation: "SendButtonHover" 1s ease infinite;
+  animation: "SendButtonHover" 1s ease infinite;
+}
+body .footer {
+  background: #000;
+  font-size: 1rem;
+  padding: 1% 0;
+  text-align: center;
+}
+
+@media (min-width: 1330px) {
+  body .homeScreen .projects .slideshow-container .carouselWrapper .carousel-root .carousel .slide .legend {
+    width: 70%;
+  }
+}
+@media (min-width: 1025px) {
+  body .homeScreen .projects .project-container:nth-child(3) {
+    opacity: 1 !important;
+  }
+}
+@media (max-width: 1023px) {
+  body .container header {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  body .container .homeScreen .logo {
+    width: 90%;
+  }
+  body .container .homeScreen .projects {
+    border: none;
+    padding: 0 3%;
+  }
+  body .container .homeScreen .projects .project-container {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  body .homeScreen .projects .project-container:nth-child(2) {
+    opacity: 1 !important;
+  }
+}
+@media (max-width: 767px) {
+  body .container .homeScreen .projects .project-container {
+    padding: 3%;
+    width: 100%;
+  }
+}
+@media (hover: hover) {
+  body .container header nav button:hover,
+  body .container header nav a:hover {
+    -webkit-animation: "SocialHover" 1s ease infinite;
+    -moz-animation: "SocialHover" 1s ease infinite;
+    animation: "SocialHover" 1s ease infinite;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

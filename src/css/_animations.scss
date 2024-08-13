@@ -1,0 +1,64 @@
+// Animations
+// --------------------------
+
+@mixin scale($xScale, $yScale) {
+  -webkit-transform: scale($xScale, $yScale);
+  transform: scale($xScale, $yScale);
+}
+
+@mixin BackgroundGradientAnimation() {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@mixin SocialHoverAnimation() {
+  0% {
+    color: #fff;
+    @include scale(1, 1);
+  }
+
+  50% {
+    color: #ff0000;
+    @include scale(1.1, 1.1);
+  }
+
+  100% {
+    color: #fff;
+    @include scale(1, 1);
+  }
+}
+
+@mixin SendButtonHoverAnimation() {
+  0% {
+    @include scale(1, 1);
+  }
+
+  50% {
+    @include scale(1.1, 1.1);
+  }
+
+  100% {
+    @include scale(1, 1);
+  }
+}
+
+@mixin ArrowPulseAnimation() {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}

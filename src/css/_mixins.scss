@@ -1,0 +1,31 @@
+@import "animations";
+@import "keyframes";
+
+// Mixins
+// --------------------------
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin animation(
+  $AnimationName,
+  $AnimationDuration,
+  $AnimationEase,
+  $AnimationIteration
+) {
+  -webkit-animation: $AnimationName $AnimationDuration ease infinite;
+  -moz-animation: $AnimationName $AnimationDuration ease infinite;
+  animation: $AnimationName $AnimationDuration ease infinite;
+}
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

@@ -1,0 +1,103 @@
+@media (min-width: 1330px) {
+
+  body .homeScreen .projects .slideshow-container .carouselWrapper .carousel-root .carousel .slide .legend {
+    width: 70%;
+  }
+
+}
+
+@media (min-width: 1025px) {
+  body {
+    .homeScreen {
+      .projects {
+        .project-container {
+          &:nth-child(3) {
+            opacity: 1 !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  body {
+
+    .container {
+
+      header {
+        padding-left: 4%;
+        padding-right: 4%;
+      }
+
+      .homeScreen {
+
+        .logo {
+          width: 90%;
+        }
+
+        .projects {
+          border: none;
+          padding: 0 3%;
+          .project-container {
+            width: 50%;
+          }
+        }
+      }
+
+    }
+
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+
+    .homeScreen {
+      .projects {
+        .project-container {
+          &:nth-child(2) {
+            opacity: 1 !important;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+
+    .container {
+
+      .homeScreen {
+
+        .projects {
+          .project-container {
+            padding: 3%;
+            width: 100%;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media (hover: hover) {
+  body {
+    .container {
+      header {
+        nav {
+          button,
+          a {
+            &:hover {
+              @include animation("SocialHover", 1s, "ease", 1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

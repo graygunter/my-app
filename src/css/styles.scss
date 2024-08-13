@@ -1,0 +1,292 @@
+@import "reset";
+@import "mixins";
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  height: 90vh;
+  width: 100wh;
+
+  .hide {
+    display: none;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1024px;
+
+    header {
+      padding: 3% 0 0 0;
+
+      nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        button,
+        a {
+          background: none;
+          border: none;
+          color: #fff;
+          cursor: pointer;
+          /*margin-right: 20%;*/
+          outline: none;
+
+          &:nth-child(4) {
+            margin-right: 10px;
+          }
+        }
+
+        button svg {
+          margin-top: -2px;
+          left: 5px;
+          position: relative;
+        }
+      }
+    }
+  }
+
+  .homeScreen {
+    .logo {
+      display: block;
+      height: auto;
+      margin: 30px auto;
+      width: 100%;
+    }
+
+    .menu {
+      border-bottom: 1px solid #fff;
+      display: flex;
+      width: 100%;
+
+      div {
+        background: #000;
+        border: 1px solid white;
+        border-bottom: 0em;
+        border-radius: 5px 5px 0 0;
+        color: #fff;
+        font-size: 1.5rem;
+        margin: 0 5px -1px 0;
+        outline: none;
+        padding: 5px 10px;
+        width: 40%;
+
+        &.active {
+          background: #1a73e8;
+          border-bottom: 1px solid #fff;
+          border-style: solid;
+          color: #fff;
+          cursor: pointer;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .projects {
+      border: 1px solid #fff;
+      border-radius: 0 0 10px 10px;
+      border-top: none;
+      display: flex;
+      flex-wrap: wrap;
+
+      .project-container {
+        box-sizing: border-box;
+        cursor: pointer;
+        display: block;
+        font-size: 1.45rem;
+        height: 100%;
+        line-height: 2rem;
+        padding: 3%;
+        position: relative;
+        width: 50%;
+
+        .iframeWrapper {
+
+          clear: both;
+          display: block;
+          height: 100%;
+          margin-bottom: 20px;
+          min-height: 275px;
+          position: relative;
+          width: 100%;
+
+          iframe {
+            box-sizing: border-box;
+            display: block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+          }
+
+        }
+
+        h3 {
+          color: #1a73e8;
+          font-weight: 700;
+          line-height: 25px;
+          margin-bottom: 0;
+
+          &.subname {
+            font-weight: normal;
+          }
+        }
+
+        h4 {
+          span {
+            font-weight: 600;
+          }
+        }
+
+        a,
+        a:visited {
+          color: #1a73e8;
+          text-decoration: none;
+        }
+
+        img {
+          margin-top: 15px;
+          width: 100%;
+        }
+      }
+
+      .slideshow-container {
+        position: relative;
+
+        .carouselWrapper {
+          background: rgba(0, 0, 0, 0.75);
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 100%;
+
+          .carousel-root {
+
+            position: relative;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+            .carousel {
+
+              .carousel-status {
+                left: 0;
+                padding: 10px;
+                right: auto;
+              }
+
+              svg {
+                color: #000;
+                cursor: pointer;
+                position: absolute;
+                right: 27px;
+                top: 10px;
+                z-index: 2;
+              }
+
+              .control-dots {
+                .dot {
+                  background: #1a73e8;
+                }
+              }
+
+              .carousel-status {
+                background: #000;
+                font-size: 1.5rem;
+              }
+
+              .slide {
+              
+                .legend {
+                  background: #000;
+                  bottom: 3%;
+                  font-size: 2em;
+                  left: 0;
+                  line-height: 1.5em;
+                  margin: 0 auto;
+                  opacity: 1;
+                  position: relative;
+                  width: 90%;
+                }
+            
+              }
+            }
+
+          }
+          
+        }
+      }
+
+      &.art {
+        .slideshow-container {
+          .carouselWrapper {
+            .carousel-root {
+              .carousel {
+                svg {
+                  color: #FFF;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contactScreen {
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 5%;
+      text-align: center;
+    }
+
+    form {
+      margin: 0 auto;
+      width: 300px;
+
+      input,
+      textarea {
+        box-sizing: border-box;
+        border: none;
+        display: block;
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+        margin-bottom: 10px;
+        outline: none;
+        padding: 2px 10px;
+        width: 100%;
+      }
+
+      textarea {
+        height: 200px;
+        resize: none;
+      }
+
+      input[type="submit"] {
+        @include border-radius(4px);
+        background-color: #1a73e8;
+        color: #fff !important;
+        cursor: pointer;
+        font-weight: 700;
+        padding: 4% 0;
+        text-transform: uppercase;
+
+        &:hover {
+          @include animation("SendButtonHover", 1s, "ease", 1);
+        }
+      }
+    }
+  }
+
+  .footer {
+    background: #000;
+    font-size: 1rem;
+    padding: 1% 0;
+    text-align: center;
+  }
+}
+
+@import "responsive";
