@@ -203,11 +203,13 @@ body {
                 .legend {
                   background: #000;
                   bottom: 3%;
+                  box-sizing: border-box;
                   font-size: 2em;
                   left: 0;
                   line-height: 1.5em;
                   margin: 0 auto;
                   opacity: 1;
+                  padding: 10px 0;
                   position: relative;
                   width: 90%;
                 }
