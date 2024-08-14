@@ -157,7 +157,7 @@ body {
         position: relative;
 
         .carouselWrapper {
-          background: rgba(0, 0, 0, 0.75);
+          background: rgba(0, 0, 0, 0.9);
           position: fixed;
           top: 0;
           left: 0;
@@ -166,10 +166,11 @@ body {
           .carousel-root {
 
             position: relative;
+            /*
             top: 50%;
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-
+            */
             .carousel {
 
               .carousel-status {
@@ -179,7 +180,7 @@ body {
               }
 
               svg {
-                color: #000;
+                color: #7a7a7a;
                 cursor: pointer;
                 position: absolute;
                 right: 27px;
@@ -199,6 +200,15 @@ body {
               }
 
               .slide {
+
+                img {
+                  width: 100%;
+                  vertical-align: top;
+                  border: 0;
+                  height: 100%;
+                  max-height: 850px;
+                  max-width: 90%;
+                }
               
                 .legend {
                   background: #000;
@@ -228,7 +238,7 @@ body {
             .carousel-root {
               .carousel {
                 svg {
-                  color: #FFF;
+                  color: #FF0000;
                 }
               }
             }
