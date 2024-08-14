@@ -3,7 +3,7 @@
     {
       "name": "Medicaid Provider Enrollment - Final Design",
       "thumbnail": "Provider_Enrollment_final.jpg",
-      "slides": ["Provider_Enrollment_1.jpg", "Provider_Enrollment_2.jpg", "Provider_Enrollment_3.jpg", "Provider_Enrollment_4.jpg", "Provider_Enrollment_5.jpg", "Provider_Enrollment_6.jpg", "Provider_Enrollment_7.jpg", "Provider_Enrollment_8.jpg", "Provider_Enrollment_9.jpg"],
+      "slides": ["Provider_Enrollment_final_1.png","Provider_Enrollment_final_2.png","Provider_Enrollment_final_3.png","Provider_Enrollment_final_4.png","Provider_Enrollment_final_5.png"],
       "altText": "Black and white wireframe for Medicaid provider enrollment through multiple inputs on tabbed screens.",
       "briefDescription": "Form for online Medicaid provider enrollment",
       "longDescription": "Would-be Medicaid providers offer detailed information to expedite the enrollment process."
