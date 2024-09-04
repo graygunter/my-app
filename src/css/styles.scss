@@ -2,8 +2,8 @@
 @import "mixins";
 
 body {
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 300;
   height: 90vh;
@@ -29,8 +29,9 @@ body {
         a {
           background: none;
           border: none;
-          color: #fff;
+          color: #000;
           cursor: pointer;
+          font-size: 1.3em;
           /*margin-right: 20%;*/
           outline: none;
 
@@ -57,17 +58,18 @@ body {
     }
 
     .menu {
-      border-bottom: 1px solid #fff;
+      border-bottom: 1px solid #000;
       display: flex;
       width: 100%;
 
       div {
-        background: #000;
-        border: 1px solid white;
+        background: #fff;
+        border: 1px solid #000;
         border-bottom: 0em;
         border-radius: 5px 5px 0 0;
-        color: #fff;
+        color: #000;
         font-size: 1.5rem;
+        font-weight: 700;
         margin: 0 5px -1px 0;
         outline: none;
         padding: 5px 10px;
@@ -75,17 +77,16 @@ body {
 
         &.active {
           background: #1a73e8;
-          border-bottom: 1px solid #fff;
+          border-bottom: 1px solid #000;
           border-style: solid;
           color: #fff;
           cursor: pointer;
-          font-weight: 700;
         }
       }
     }
 
     .projects {
-      border: 1px solid #fff;
+      border: 1px solid #000;
       border-radius: 0 0 10px 10px;
       border-top: none;
       display: flex;
